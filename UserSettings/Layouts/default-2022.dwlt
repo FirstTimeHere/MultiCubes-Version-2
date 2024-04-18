@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -816,9 +816,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -22.850174, y: 13.1957445, z: -19.901026}
+    m_Target: {x: 3.8468971, y: 16.924019, z: -27.811255}
     speed: 2
-    m_Value: {x: -22.850174, y: 13.1957445, z: -19.901026}
+    m_Value: {x: 3.8468971, y: 16.924019, z: -27.811255}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -864,9 +864,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2562683, y: 0.614724, z: -0.22114028, w: -0.7124319}
+    m_Target: {x: -0.116326176, y: -0.8165982, z: 0.17687331, w: -0.53700405}
     speed: 2
-    m_Value: {x: -0.2562683, y: 0.614724, z: -0.22114028, w: -0.7124319}
+    m_Value: {x: -0.1163249, y: -0.81658924, z: 0.17687137, w: -0.53699815}
   m_Size:
     m_Target: 8.350983
     speed: 2
@@ -950,7 +950,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\GitHub\MultiCubes\MultiCubes
+  m_LastProjectPath: "D:\\GitHub\\MultiCubes 2 \u0432\u0435\u0440\u0441\u0438\u044F\\MultiCubes-Version-2"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:

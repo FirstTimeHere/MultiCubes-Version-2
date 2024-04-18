@@ -4,6 +4,7 @@ using UnityEngine;
 public class Exlplosion : MonoBehaviour
 {
     [SerializeField] private float _explosionForce;
+    [SerializeField] private float _explosionRadius;
     [SerializeField] private ParticleSystem _effect;
     [SerializeField] private ClickHandler _clickObject;
 
@@ -27,13 +28,13 @@ public class Exlplosion : MonoBehaviour
     {
         foreach (Rigidbody explodableObject in GetExplodableObjects())
         {
-            explodableObject.AddExplosionForce(_explosionForce, transform.position, transform.localScale.x);
+            explodableObject.AddExplosionForce(_explosionForce, transform.position, _explosionRadius);
         }
     }
 
     private List<Rigidbody> GetExplodableObjects()
     {
-        Collider[] hits = Physics.OverlapSphere(transform.position, transform.localScale.x);
+        Collider[] hits = Physics.OverlapSphere(transform.position, _explosionRadius);
 
         List<Rigidbody> explosionObjects = new();
 

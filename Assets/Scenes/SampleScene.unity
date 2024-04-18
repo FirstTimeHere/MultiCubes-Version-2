@@ -140,8 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3409ed52cc4e2ab499f74c971445ea2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionRadius: 500
   _explosionForce: 1000
+  _explosionRadius: 150
   _effect: {fileID: 1064722891883742112, guid: c135f27145975a84d93285cd2d5ff993, type: 3}
   _clickObject: {fileID: 285489534}
 --- !u!114 &285489534
@@ -689,8 +689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3409ed52cc4e2ab499f74c971445ea2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionRadius: 500
   _explosionForce: 1000
+  _explosionRadius: 150
   _effect: {fileID: 1064722891883742112, guid: c135f27145975a84d93285cd2d5ff993, type: 3}
   _clickObject: {fileID: 813796470}
 --- !u!1 &963194225
@@ -802,8 +802,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3409ed52cc4e2ab499f74c971445ea2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionRadius: 500
   _explosionForce: 1000
+  _explosionRadius: 150
   _effect: {fileID: 1064722891883742112, guid: c135f27145975a84d93285cd2d5ff993, type: 3}
   _clickObject: {fileID: 1511225042}
 --- !u!114 &1511225042
@@ -835,8 +835,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3409ed52cc4e2ab499f74c971445ea2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionRadius: 500
   _explosionForce: 1000
+  _explosionRadius: 0
   _effect: {fileID: 1064722891883742112, guid: c135f27145975a84d93285cd2d5ff993, type: 3}
   _clickObject: {fileID: 2120233661}
 --- !u!114 &2120233661
